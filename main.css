@@ -1,0 +1,36 @@
+.body{
+    padding: 30px 30px 30px 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(42, 151, 165);
+}
+
+.rosco{
+    background-color:rgb(186, 35, 48);
+    padding: 20px 20px 20px 20px;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:unset;
+}
+
+.rtas{
+    font-weight: bold;
+    color: rgb(107, 17, 23);
+    padding: 30px 20px 30px 20px;
+    align-items: center;
+    display:flex;
+    row-gap: 2rem;
+    flex-direction: column;
+}
+
+.hidden{
+    display:none;
+}
+
+.show{
+    display:contents;
+    padding: 20px 20px 20px 20px;
+}
